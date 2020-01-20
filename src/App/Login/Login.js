@@ -24,9 +24,9 @@ function Login() {
                     <h2>Welcome Back</h2>
                     <span>Sign in to continue to IO Technologies</span>
                 </div>
-                <div>
-                    <form>
-                        <input placeholder="Your Email" type="email"></input>
+                <div className="form-section">
+                    <form className="form">
+                        <input placeholder="Your email" type="email"></input>
                         <input placeholder="Password" type="password"></input>
                     </form>
                 </div>

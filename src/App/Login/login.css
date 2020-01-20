@@ -68,3 +68,32 @@
 .welcome span {
     color:#5d6985;
 }
+
+.form {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 57%;
+    background-color: #04102c;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #28334f;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder { 
+    color: #5d6985;
+  }
+
+  
