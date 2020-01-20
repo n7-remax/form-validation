@@ -15,7 +15,7 @@ function Login() {
                 </div>
                 <div className="buttons-place">
                     <div className="button">help center</div>
-                    <span>or</span>
+                    <span className="or">or</span>
                     <div className="button">support</div>
                 </div>
             </div>
