@@ -12,7 +12,8 @@ function Login() {
                 </div>
             </div>
             <div className="sign-in-section">
-
+                <div><span>Welcome Back</span>
+                </div>
             </div>
         </div>
     );
