@@ -59,3 +59,12 @@
     padding: 210px 50px 610px 100px;
 
 }
+
+.welcome h2 {
+    font-size: 30px;
+    margin: 0 0 5px 0;
+}
+
+.welcome span {
+    color:#5d6985;
+}

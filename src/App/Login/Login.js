@@ -20,7 +20,7 @@ function Login() {
                 </div>
             </div>
             <div className="sign-in-section">
-                <div>
+                <div className="welcome">
                     <h2>Welcome Back</h2>
                     <span>Sign in to continue to IO Technologies</span>
                 </div>
