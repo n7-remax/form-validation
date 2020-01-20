@@ -17,6 +17,7 @@
 .logo-section {
     display: flex;
     flex-direction: row;
+    padding-bottom: 30px;
 }
 
 .logo {
@@ -25,10 +26,11 @@
     background-size:100%;
     width: 49px;
     height: 60px;
+    margin-right: 10px;
 }
 
 .label {
-    color: rgba(70, 69, 69,100%);
+    color: rgba(255, 255, 255, 0.527);
     font-size: 29px;
 }
 
