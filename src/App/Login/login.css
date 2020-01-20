@@ -1,13 +1,17 @@
-.support-section {
-    padding: 210px 0px 610px 0px;
-    flex-basis:50%;
-    background: linear-gradient(18deg, rgba(102,51,204,1) 0%, rgba(102,153,204,1) 40%);
-    border-radius: 0% 5% 5% 0% / 10% 50% 50% 10% ;
-}
-
 .login {
     display: flex;
-    background-color: #10172f;
+    background-color: #04102c;
+    color: white;
+}
+
+.support-section {
+    display: flex;
+    flex-direction: column;
+    padding: 210px 50px 610px 100px;
+    flex-basis:50%;
+    background: linear-gradient(18deg, rgba(96,84,190,1) 0%, rgba(62,170,223,1) 40%);
+    border-radius: 0% 5% 5% 0% / 10% 50% 50% 10% ;
+    align-items: center;
 }
 
 .logo-section {
@@ -19,14 +23,29 @@
     background-image: url(./logo.png);
     background-repeat: no-repeat;
     background-size:100%;
-    width: 78px;
+    width: 49px;
     height: 60px;
 }
 
 .label {
     color: rgba(70, 69, 69,100%);
-    font-size: 49px;
+    font-size: 29px;
 }
+
+.buttons-place {
+    display: flex;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+.button {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
 
 .sign-in-section {
     flex-basis:50%;
