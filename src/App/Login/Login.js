@@ -20,7 +20,21 @@ function Login() {
                 </div>
             </div>
             <div className="sign-in-section">
-                <div><span>Welcome Back</span>
+                <div>
+                    <h2>Welcome Back</h2>
+                    <span>Sign in to continue to IO Technologies</span>
+                </div>
+                <div>
+                    <form>
+                        <input placeholder="Your Email" type="email"></input>
+                        <input placeholder="Password" type="password"></input>
+                    </form>
+                </div>
+                <div className="confirm-place">
+                    <div className="confirm-button"><span>Log in</span></div>
+                </div>
+                <div className="forgot-password">
+                    <span>Forgot your password? <a href="#">Reset</a></span>
                 </div>
             </div>
         </div>
