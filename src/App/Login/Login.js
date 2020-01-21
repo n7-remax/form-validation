@@ -6,7 +6,7 @@ import "./login.css"
 
 function Login() {  
     return (
-        <div className="login">
+        <div className="login" id="login">
             <div className="sign-in-section">
                 <div className="welcome">
                     <h2>Welcome Back</h2>

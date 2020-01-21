@@ -4,7 +4,7 @@ import './support.css';
 
 function Support() {
     return (
-        <div className="support">
+        <div className="support" id="support">
             <div className="logo-section">
                 <div className="logo"></div>
                 <span className="label">Technologies</span>
