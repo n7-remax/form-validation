@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 import "./login.css"
 
-function Login() {
+function Login() {  
     return (
         <div className="login">
             <div className="sign-in-section">
@@ -21,7 +21,7 @@ function Login() {
                 <div className="confirm-place">
                     <a href="#" className="confirm-button">LOG IN<span class="arrow"> &#10230;</span></a>
                 </div>
-                <div className="forgot-password">
+                <div className="forgot-password-place">
                     <span>Forgot your password? <Link to="/forgot-password">Reset</Link></span>
                 </div>
             </div>
