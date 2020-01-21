@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
 import { TweenMax } from "gsap";
-import tippy from 'tippy.js';
+import Tippy from '@tippy.js/react';
 
 import 'tippy.js/dist/tippy.css';
 import './inputValidation.css'
 
 class InputValidation extends Component {
+    balloonRef = React.createRef();
+
     inputRef = React.createRef();
 
     state = { value: '' };
 
     validate = () => {
         const haveError = !!this.valueValidationError;
-        TweenMax.to(this.inputRef.current, 0.12, { x: "+10", yoyo: true, repeat: 5 });
-        TweenMax.to(this.inputRef.current, 0.12, { x: "-10", yoyo: true, repeat: 5 });
+        if (haveError){
+            TweenMax.to(this.inputRef.current, 0.12, { x: "+10", yoyo: true, repeat: 5 });
+            TweenMax.to(this.inputRef.current, 0.12, { x: "-10", yoyo: true, repeat: 5 });  
+            this.balloonRef.current._tippy.show();  
+        }
         return !haveError;
     }
 
@@ -25,23 +30,23 @@ class InputValidation extends Component {
 
     render() {
         const {
-            valueValidationError, onChange, inputRef,
+            valueValidationError, onChange, inputRef, balloonRef,
             state: { value },
         } = this;
-        
+
         const errorHighlight = valueValidationError && value
 
         return (
-            <div>
-                <input 
+            <Tippy content={valueValidationError} ref={balloonRef} trigger='manual' placement='right' flipBehavior={['right','bottom']} maxWidth={150}>
+                <input
                     {...this.props}
-                    className={`custom-input ${errorHighlight?'input-error':''}`}
+                    className={`custom-input ${errorHighlight ? 'input-error' : ''}`}
                     ref={inputRef}
                     value={value}
                     onChange={e => this.setState({ value: e.target.value })}
                 />
                 {/* <div>{valueValidationError}</div> */}
-            </div>
+            </Tippy>
         );
     }
 }
