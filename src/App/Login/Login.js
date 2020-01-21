@@ -31,7 +31,7 @@ function Login() {
                     </form>
                 </div>
                 <div className="confirm-place">
-                    <div className="confirm-button"><span>Log in</span></div>
+                    <a href="#" className="confirm-button">LOG IN<span class="arrow"> &#10230;</span></a>
                 </div>
                 <div className="forgot-password">
                     <span>Forgot your password? <a href="#">Reset</a></span>

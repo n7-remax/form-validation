@@ -100,16 +100,36 @@ input:focus{
   }
 
   .confirm-button {
+    display: block;
     width: 50%;
     font-weight: 600;
     text-align: center;
     font-size: 15px;
     padding: 10px 20px 10px 20px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
     border-radius: 3px;
-    background: linear-gradient(18deg, rgba(96,84,190,1) 0%, rgba(62,170,223,1) 40%);
     cursor: pointer;
+    transition: all 0.3s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #499bea 0%, #5371e0 50%, #499bea 100%);
+  }
+  .confirm-button:hover {
+    background-position: right center;
+  }
 
+  .arrow {
+      margin-left: 5px;
+  }
+
+  .confirm-button .arrow {
+    display: inline-block;
+    transition: all 0.3s;
+  }
+
+  .confirm-button:hover .arrow {
+    transform: translateX(10px);
   }
 
   .forgot-password {
