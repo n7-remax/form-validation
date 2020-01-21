@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 999px){
   .App {
     flex-direction: column;
   }
