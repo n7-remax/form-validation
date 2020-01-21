@@ -20,29 +20,6 @@
     flex-direction: column;
 }
 
-.form input {
-    background-color: #04102c;
-    color: white;
-    border: none;
-    border-bottom: 1px solid #28334f;
-    font-size: 18px;
-    font-weight: 700;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-    transition:ease-in-out 0.4s;
-
-}
-
-input:focus{
-    outline: none;
-    border-bottom: 1px solid #00bdff;
-    transition:ease-in-out 0.4s;
-}
-
-::placeholder { 
-    color: #5d6985;
-  }
-
   .confirm-button {
     display: block;
     font-weight: 600;
