@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { TweenMax } from "gsap";
+import tippy from 'tippy.js';
 
+import 'tippy.js/dist/tippy.css';
 import './inputValidation.css'
 
 class InputValidation extends Component {
