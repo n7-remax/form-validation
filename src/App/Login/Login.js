@@ -1,24 +1,12 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom'
+
 import "./login.css"
 
 function Login() {
     return (
         <div className="login">
-            <div className="support-section">
-                <div className="logo-section">
-                    <div className="logo"></div>
-                    <span className="label">Technologies</span>
-                </div>
-                <div>
-                    <span>Get how-to help and instructions or specific feutures in</span>
-                </div>
-                <div className="buttons-place">
-                    <div className="button">help center</div>
-                    <span className="or">or</span>
-                    <div className="button">support</div>
-                </div>
-            </div>
             <div className="sign-in-section">
                 <div className="welcome">
                     <h2>Welcome Back</h2>
@@ -34,7 +22,7 @@ function Login() {
                     <a href="#" className="confirm-button">LOG IN<span class="arrow"> &#10230;</span></a>
                 </div>
                 <div className="forgot-password">
-                    <span>Forgot your password? <a href="#">Reset</a></span>
+                    <span>Forgot your password? <Link to="/forgot-password">Reset</Link></span>
                 </div>
             </div>
         </div>

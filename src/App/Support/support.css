@@ -1,0 +1,48 @@
+.support {
+    display: flex;
+    flex-direction: column;
+    padding: 210px 50px 610px 100px;
+    flex-basis:50%;
+    background: linear-gradient(18deg, rgba(96,84,190,1) 0%, rgba(62,170,223,1) 40%);
+    border-radius: 0% 5% 5% 0% / 10% 50% 50% 10% ;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.logo {
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 49px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.label {
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 29px;
+}
+
+.buttons-place {
+    display: flex;
+    color: white;
+    padding: 20px 20px 0px 20px;
+}
+
+.button {
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.253);
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+.or {
+    padding: 10px;
+}
