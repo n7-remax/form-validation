@@ -1,6 +1,6 @@
 .sign-in-section {
     flex-basis:50%;
-    padding: 210px 50px 610px 100px;
+    padding: 210px 50px 410px 100px;
 
 }
 
@@ -21,7 +21,6 @@
 }
 
 .form input {
-    width: 57%;
     background-color: #04102c;
     color: white;
     border: none;
@@ -46,11 +45,10 @@ input:focus{
 
   .confirm-button {
     display: block;
-    width: 50%;
     font-weight: 600;
     text-align: center;
     font-size: 15px;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
