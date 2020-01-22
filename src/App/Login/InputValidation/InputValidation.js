@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { TweenMax } from "gsap";
+import 'gsap/CSSPlugin'
 import Tippy from '@tippy.js/react';
 
 import 'tippy.js/dist/tippy.css';
