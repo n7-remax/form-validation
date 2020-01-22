@@ -21,9 +21,28 @@ code {
     border-radius: 0px;
   }
 
-  #login .sign-in-section {
-    padding: 210px 50px 100px 100px;
+  #login {
+    padding: 100px 100px 100px 100px;
 
 }
+#login .sign-in-section {
+  width: 100%;
+}
 
+#forgot-password {
+  padding: 70px 100px 100px 100px;
+
+}
+#forgot-password .forgot-container {
+  width: 100%;
+}
+
+}
+@media screen and (max-width: 599px){
+  .App {
+    height: 100vh;
+  }
+  #support {
+    display: none;
+  }
 }
