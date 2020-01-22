@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TweenMax } from "gsap";
+import gsap,{ TweenMax,CSSPlugin } from "gsap";
 import 'gsap/CSSPlugin'
 import Tippy from '@tippy.js/react';
 
@@ -51,5 +51,6 @@ class InputValidation extends Component {
         );
     }
 }
+gsap.registerPlugin(CSSPlugin);
 
 export default InputValidation
