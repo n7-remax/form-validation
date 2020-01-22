@@ -14,19 +14,21 @@ function ForgotPassword() {
     }
     return (
         <div className="forgot-password">
-            <div className="arrow-place">
-                <Link to="/">&#129120;</Link>
-            </div>
-            <div className="heading">
-                <h2>Forgot password?</h2>
-            </div>
-            <div className="form-section">
-                <form className="form">
-                    <InputValidation type="email" placeholder="Your email" ref={inputEl} rules={ValidationRules.inputEmail} />
-                </form>
-            </div>
-            <div className="confirm-place">
-                <div onClick={onButtonClick} className="confirm-button">Send me instructions</div>
+            <div className="forgot-container">
+                <div className="arrow-place">
+                    <Link to="/">&#129120;</Link>
+                </div>
+                <div className="heading">
+                    <h2>Forgot password?</h2>
+                </div>
+                <div className="form-section">
+                    <form className="form">
+                        <InputValidation type="email" placeholder="Enter your email" ref={inputEl} rules={ValidationRules.inputEmail} />
+                    </form>
+                </div>
+                <div className="confirm-place">
+                    <div onClick={onButtonClick} className="confirm-button">Send me instructions</div>
+                </div>
             </div>
         </div>
     );
