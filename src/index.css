@@ -22,7 +22,7 @@ code {
   }
 
   #login {
-    padding: 100px 100px 100px 100px;
+    padding: 100px 50px 100px 50px;
 
 }
 #login .sign-in-section {
@@ -30,7 +30,7 @@ code {
 }
 
 #forgot-password {
-  padding: 70px 100px 100px 100px;
+  padding: 70px 50px 100px 50px;
 
 }
 #forgot-password .forgot-container {
@@ -44,5 +44,14 @@ code {
   }
   #support {
     display: none;
+  }
+
+  #login {
+    padding: 100px 10px 100px 10px;
+  }
+
+  #forgot-password {
+    padding: 70px 10px 100px 10px;
+  
   }
 }
