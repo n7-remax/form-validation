@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Support/>
-      <Route exact path="/" render={() => <Login />} />
+      <Route exact path="/form-validation" render={() => <Login />} />
       <Route exact path="/forgot-password" render={() => <ForgotPassword />} />
     </div>
   );

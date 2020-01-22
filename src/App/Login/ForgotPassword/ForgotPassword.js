@@ -16,7 +16,7 @@ function ForgotPassword() {
         <div className="forgot-password" id="forgot-password">
             <div className="forgot-container">
                 <div className="arrow-place">
-                    <Link to="/">&#129120;</Link>
+                    <Link to="/form-validation">&#129120;</Link>
                 </div>
                 <div className="heading">
                     <h2>Forgot password?</h2>
