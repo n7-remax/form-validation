@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen and (max-width: 999px){
+  .App {
+    flex-direction: column;
+  }
+
+  #support {
+    border-radius: 0px;
+  }
+
+  #login .sign-in-section {
+    padding: 210px 50px 100px 100px;
+
+}
+
+}
