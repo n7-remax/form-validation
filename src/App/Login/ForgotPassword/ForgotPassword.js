@@ -26,7 +26,7 @@ function ForgotPassword() {
                 </form>
             </div>
             <div className="confirm-place">
-                <a onClick={onButtonClick} href="#" className="confirm-button">Send me instructions</a>
+                <div onClick={onButtonClick} className="confirm-button">Send me instructions</div>
             </div>
         </div>
     );

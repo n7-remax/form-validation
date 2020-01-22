@@ -36,7 +36,7 @@ class Login extends Component {
                         </form>
                     </div>
                     <div className="confirm-place">
-                        <a onClick={onValidatePress} href="#" className="confirm-button">LOG IN<span class="arrow"> &#10230;</span></a>
+                        <div onClick={onValidatePress} className="confirm-button">LOG IN<span class="arrow"> &#10230;</span></div>
                     </div>
                     <div className="forgot-password-place">
                         <span>Forgot your password? <Link to="/forgot-password">Reset</Link></span>
